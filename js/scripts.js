@@ -10,6 +10,16 @@ var inputNumber = function(userInput){
       // debugger;
       var userCount = index;
       countArray.push(index);
+      if(index === 1){
+        countArray.push("boop")
+      }
+      else if(index === 0){
+        countArray.push("beep")
+      }
+      if(index % 3 === 0){
+        countArray.push("Im sorry Dave. Im afraid I cant do that")
+      }
+
   }
  // This will create a new array from list created by user
   var afterCountArray = countArray.slice()
