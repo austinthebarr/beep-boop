@@ -3,7 +3,7 @@
 
 var inputNumber = function(userInput){
 // this will take counted data from user
-
+// debugger;
   var countArray = [];
   // this will make countArray
     for (var index = 0; index <= userInput; index+= 1) {
@@ -13,32 +13,47 @@ var inputNumber = function(userInput){
   }
  // This will create a new array from list created by user
   var afterCountArray = countArray.slice()
+  // var test = afterCountArray.split('')
+//this will combine all chacters and split each one up
+var arrayString = afterCountArray.toString()
+var newArra2 = [];
+var newArra = newArra2.push(arrayString)
+var parseIntTest = parseInt(arrayString)
+var SplitArra2 = newArra2.join('')
+//
+// parseIntTest.forEach(){};
 
- var index = afterCountArray.indexOf(0)
- var index2 = afterCountArray.indexOf(1)
-  if (index !== -1){
-    afterCountArray[index] = "beep";
-    }
-  if (index2 !== -1){
-    afterCountArray[index2] = "boop"
-  }
-  // var outputForUser = function(afterCountArray){
+
+//
+// var parseString = parseInt(arrayString)
+// var stringSplit = parseString.split("")
+
+// var index = arrayString.indexOf("1")
+// var index2 = arrayString.indexOf("2")
+//  if (index !== -1){
+//    arrayString[index] = "beep";
+//    }
+//  if (index2 !== -1){
+//    arrayString[index2] = "boop"
+//  }
 
 
-// for looop
-    // for (var index= 0; index <= afterCountArray.length; index++){
-    //   if (afterCountArra.indexOf("0") === 0 ){
-    //     afterCountArray.splice( index ,s"boo")
-    //   }
-    // }
+
+
 
 // this array will change each number to create response
  // afterCountArray.forEach(function(afterCountArra){
  //    if(afterCountArra === 0){
  //      afterCountArray.splice()
  //    }
-console.log(afterCountArray)
-  // }
+ // console.log(parseArray)
+ // console.log(stringSplit)
+ console.log(SplitArra2)
+ console.log(afterCountArray)
+ console.log(parseIntTest)
+console.log(countArray)
+console.log(arrayString)
+console.log(newArra2)
 
 }
 
