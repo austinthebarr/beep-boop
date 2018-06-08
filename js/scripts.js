@@ -2,8 +2,9 @@ $(function(){
 
 var inputNumber = function(userInput){
 
-  for (var index = 0; index <= userInput; index++) {
-    return index;
+  for (var index = 0; index <= userInput; index+= 1) {
+    var userCount = index;
+    console.log(userCount);
 
   }
 }
