@@ -23,7 +23,7 @@ var inputNumber = function(userInput){
         countArray.push(index);
       }
       $("span#user-output").text(countArray)
-  }
+    }
 }
 
 // userInput
