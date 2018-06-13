@@ -11,9 +11,16 @@
     <div class="container">
       <h1>Enter a number to get a Robot response!</h1>
       <form id="input-form">
+
+        <div class="form-group">
+          <label for="input">Enter your Name:</label>
+          <input type="text" id="user-name" class="form-control">
+        </div>
         <div class="form-group">
           <label for="input">Enter a Number:</label>
           <input type="text" id="user-input" class="form-control">
+        </div>
+
           <br>
           <button type="submit" class="btn btn-success">Submit</button>
           <br>
@@ -23,7 +30,6 @@
           <br>
           <p>Robot Response</p>
           <span id="user-output"></span>
-    </div>
-
+        </div>
   </body>
 </html>
